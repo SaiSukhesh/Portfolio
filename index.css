@@ -1,0 +1,77 @@
+ body{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:aliceblue;   
+        }
+
+        nav{
+            background-color: white;
+            padding: 20px 40px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .logo img{
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+        }
+
+        nav a{
+            color: black;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover{
+            color: blue;
+            border-bottom: 2px solid blue;
+            padding-bottom: 4px;
+        }
+
+        .home{
+            text-align: center;
+            padding: 40px 20px;
+            color: #222;
+        }
+
+        .home h1{
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        section{
+            width: 80%;
+            margin: 30px auto;
+            padding: 25px;
+            border-radius: 12px;
+           box-shadow: 2px 3px 5px;
+        }
+
+        #about{
+            background-color:antiquewhite;   
+        }
+
+        #skills{
+            background-color: #e3f2fd;   
+        }
+
+        #projects{
+            background-color: rgb(207, 94, 94); 
+        } 
+
+        #education{
+            background-color:rgb(234, 100, 234);   
+        }
+
+        #certifications{
+            background-color: pink; 
+        }  
+
+        #contact{
+            background-color:rgb(228, 228, 98); 
+         }
